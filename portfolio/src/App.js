@@ -1,19 +1,11 @@
-function App() {
-  const likes = 5;
+import MyRoutes from "./Routes";
 
-  function inc() {
-    likes += 1;
-    console.log(likes);
-  }
+function App() {
   
   return (
-    <div className="App">
-
-      <h1>{likes}</h1>
-
-      <button onClick={inc}>+</button>
-      <button onClick={() => likes -= 1}>-</button>
-    </div>
+  <div>
+    <MyRoutes/>
+  </div>
   );
 }
 
