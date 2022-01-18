@@ -1,3 +1,5 @@
+import Footer from "./components/Footer";
+import NavBar from "./components/Navbar";
 import MyRoutes from "./Routes";
 
 function App() {
@@ -5,6 +7,8 @@ function App() {
   return (
   <div>
     <MyRoutes/>
+    <NavBar/>
+    <Footer/>
   </div>
   );
 }
