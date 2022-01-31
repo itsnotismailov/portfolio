@@ -1,14 +1,10 @@
-import Footer from "./components/Footer";
-import NavBar from "./components/Navbar";
-import MyRoutes from "./Routes";
+import Profile from "./Container/Home/Profile"
 
 function App() {
   
   return (
   <div>
-    <MyRoutes/>
-    <NavBar/>
-    <Footer/>
+    <Profile/>
   </div>
   );
 }
